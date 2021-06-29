@@ -1,0 +1,54 @@
+/* Mobile and tableat */
+@media (max-width: 767px){
+    .mainSection{
+        margin-top: 70px;
+    }
+
+    .avatar{
+        height:80vw;
+        width: 80vw;
+    }
+
+    h2{
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        font-size: 18pt;
+    }
+
+    .text{
+        margin: 40px 0px;
+        font-size: 16pt;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+}
+
+
+/* Small screens, laptops */
+@media (min-width:768px) and (max-width:991px){
+    .avatar{
+        height:30vw;
+        width: 30vw;
+    }
+
+    
+    .text{
+        margin: 40px 0px;
+        font-size: 16pt;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+}
+
+
+
+/* mediaum secreen */
+@media (min-width:992px) and( max-width:1199px){
+
+}
+
+
+/* larg secreen */
+@media (min-width:1200px){
+
+}
