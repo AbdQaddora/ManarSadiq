@@ -55,6 +55,22 @@ h2{
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+#outterCircle{
+    height:280px;
+    width: 280px;
+    margin: 100px auto 20px;
+    border-radius: 50%;
+    background-color:#34495e;
+    cursor: pointer;
+    clip-path: polygon(50% 30%, 68% 30%, 60% 47%, 60% 59%, 43% 63%, 49% 69%, 49% 50%, 45% 39%);
+
+    position: relative;
+    bottom: 265px;
+    left: 15px;
+    z-index: -1;
+    transition: all ease-in-out 0.2s;
+}
+
 #buttonText{
     color: white;
     text-align: center;
