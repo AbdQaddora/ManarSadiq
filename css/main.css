@@ -20,13 +20,7 @@ body{
     letter-spacing: -0.5px;
 }
 
-.circle{
-    height:250px;
-    width: 250px;
-    margin: 100px auto 20px;
-    border-radius: 50%;
-    background-color: #23272D;
-}
+
 
 .avatar{
     height:25vw;
@@ -41,6 +35,37 @@ body{
 }
 
 h2{
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+/* start bage seb7a */
+.circle{
+    height:250px;
+    width: 250px;
+    margin: 100px auto 20px;
+    border-radius: 50%;
+    background-color: #23272D;
+    cursor: pointer;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+#buttonText{
+    color: white;
+    text-align: center;
+    padding-top:40% ;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.counterText{
+    padding-top:30px ;
+    font-size: 22pt;
     font-weight: bold;
     letter-spacing: -0.5px;
 }
