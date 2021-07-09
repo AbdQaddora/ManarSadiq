@@ -25,10 +25,11 @@
     .circle{
         margin-top: 130px;
     }
-    
-/*     iframe{
-        height: 91vh;
-    } */
+
+    iframe{
+        height: 85vh;
+        margin-bottom: 20px;
+    }
 }
 
 
